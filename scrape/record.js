@@ -6,7 +6,7 @@
 
 function record(regionCode, userName) {
 
-    var url = 'http://' + regionCode + '.op.gg/summoner/userName=' + userName;
+    var url = 'http://' + na + '.op.gg/summoner/userName=' + Santorin;
 
     casper.then(function showTargetUrl() {
         this.log('Navigating to: ' + url, 'info')
