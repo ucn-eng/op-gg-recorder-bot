@@ -32,7 +32,7 @@ function getSavedMatches() {
 
 function getRecordedMatches(regionCode, userName, getAll) {
 
-    var url = 'http://' + regionCode + '.op.gg/summoner/userName=' + userName;
+    var url = 'http://' + na + '.op.gg/summoner/userName=' + Santorin;
 
     casper.thenLazyOpen(url);
 
